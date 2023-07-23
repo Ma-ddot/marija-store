@@ -1,0 +1,176 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  
+  nav {
+    background-color: #333;
+    color: #fff;
+    padding: 30px;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav li:last-child {
+    margin-right: 0;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+ 
+  .product-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  .product-item {
+    border: 1px solid #ddd;
+    padding: 20px;
+    background-color: #fff;
+  }
+  
+  .product-item h3 {
+    margin: 0;
+  }
+  
+  .product-item p {
+    margin: 5px 0;
+  }
+  
+  .product-item img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .product-item a {
+    display: block;
+    margin-top: 10px;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .product-item button {
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .product-item button:hover {
+    background-color: #555;
+  }
+  
+  
+  .product-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .product-details h2 {
+    margin-bottom: 10px;
+  }
+  
+  .product-details img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .product-details p {
+    margin: 5px 0;
+  }
+  
+  
+  .edit-product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .edit-product h2 {
+    margin-bottom: 10px;
+  }
+  
+  .edit-product button {
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .edit-product button:hover {
+    background-color: #555;
+  }
+  
+ 
+  .add-product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .add-product h2 {
+    margin-bottom: 10px;
+  }
+  
+  .add-product button {
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .add-product button:hover {
+    background-color: #555;
+  }
+  
+ 
+  .link-button {
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #8b8a8a;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .link-button:hover {
+    background-color: #555;
+  }
+  
